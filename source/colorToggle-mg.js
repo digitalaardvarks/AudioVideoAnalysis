@@ -21,11 +21,11 @@ function anything(a)
         if (a == 1)
         {
             grayscale = 1;
-            outlet(0, "ct", output());
+            outlet(0, "mg", output());
         } else 
         { 
             grayscale = 0;
-            outlet(0, "ct", output());
+            outlet(0, "mg", output());
         }
     }
 
@@ -34,11 +34,11 @@ function anything(a)
         if (a == 1)
         {
             inverted = 1;
-            outlet(0, "ct", output());
+            outlet(0, "mg", output());
         } else
         {
             inverted = 0;
-            outlet(0, "ct", output());
+            outlet(0, "mg", output());
         }
     }
 }

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "jit.gen",
-		"rect" : [ 320.0, 195.0, 1024.0, 503.0 ],
+		"rect" : [ 319.0, 194.0, 1024.0, 503.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -333,7 +333,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 76.5, 96.0, 100.0, 22.0 ],
-					"text" : "param set 1"
+					"text" : "param sg 1"
 				}
 
 			}
