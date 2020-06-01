@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "jit.gen",
-		"rect" : [ 510.0, 194.0, 402.0, 541.0 ],
+		"rect" : [ 1184.0, 223.0, 402.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-18",
@@ -125,7 +126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 175.0, 150.0, 20.0 ],
+					"patching_rect" : [ 236.0, 174.0, 150.0, 20.0 ],
 					"text" : "dimmap matrix from pfft"
 				}
 
@@ -137,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 175.0, 39.0, 22.0 ],
+					"patching_rect" : [ 183.0, 174.0, 39.0, 22.0 ],
 					"text" : "!- 1."
 				}
 
