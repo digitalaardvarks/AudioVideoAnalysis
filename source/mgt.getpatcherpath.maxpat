@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 132.0, 448.0, 397.0 ],
+		"rect" : [ 983.0, 282.0, 448.0, 397.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,19 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 243.0, 164.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
@@ -116,7 +128,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.5, 177.0, 88.0, 22.0 ],
+					"patching_rect" : [ 7.75, 173.0, 88.0, 22.0 ],
 					"text" : "route notfound"
 				}
 
@@ -169,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 104.5, 319.0, 68.0, 22.0 ],
+					"patching_rect" : [ 104.5, 312.0, 68.0, 22.0 ],
 					"text" : "zl ecils 1"
 				}
 
@@ -183,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 76.5, 296.0, 130.0, 22.0 ],
+					"patching_rect" : [ 76.75, 276.0, 130.0, 22.0 ],
 					"text" : "regexp (.*\\\\/)(.*)"
 				}
 
@@ -197,7 +209,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 139.0, 79.0, 22.0 ],
+					"patching_rect" : [ 78.0, 135.0, 79.0, 22.0 ],
 					"text" : "absolutepath"
 				}
 
@@ -233,8 +245,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"midpoints" : [ 17.0, 269.0, 217.0, 269.0, 217.0, 130.0, 87.5, 130.0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -248,6 +259,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -256,7 +274,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 87.5, 168.5, 17.0, 168.5 ],
+					"midpoints" : [ 87.5, 168.5, 17.25, 168.5 ],
 					"source" : [ "obj-55", 0 ]
 				}
 

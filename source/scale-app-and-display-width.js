@@ -1,6 +1,6 @@
 // This is the "Fixed Initial Window Location" you see in
 // the patcher inspector. Note that it is [x, y, width, height]
-var appWindow = [10, 50, 729, 245];
+var appWindow = [10, 50, 867, 290];
 
 var p = this.patcher;
 var parent = this.patcher.parentpatcher;
@@ -28,18 +28,18 @@ function screenWidth(w) {
       ];
     }
   }
-  // set the display window size to be 1/3
-  // of the screensize with a 16:9 ratio.
   parent.getnamed("jitworld").message(
     "size", 
-    ((w/3) * 2), 
-    (((w/3)*2)/16) * 9);
+    //((w/3) * 2), 
+    //(((w/3)*2)/16) * 6);
+	appWindow[2],
+	appWindow[3]);
 
   parent.getnamed("jitworld").message(
     "windowposition", 
     appWindow[0], 
-    appWindow[1]+appWindow[3]);
-  }
+    appWindow[1]+appWindow[3]+100);
+}
 
 function getArgs() {
   var args = arrayfromargs(arguments);
