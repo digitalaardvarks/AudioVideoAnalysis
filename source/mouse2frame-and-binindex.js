@@ -35,7 +35,7 @@ function mouse (x, y)
             } else
             {
                 frameAndBin[1] = (
-                    Math.pow((((y / (variables[1]/2)) * 1024) / 1024), variables[2]) 
+                    Math.pow((y / (variables[1]/2)), variables[2]) 
                     * 1024);
                 frameAndBin[1] = Math.floor(Math.abs(frameAndBin[1] - 1024));
             }
@@ -47,7 +47,7 @@ function mouse (x, y)
             } else
             {
                 frameAndBin[1] = (
-                    Math.pow((((y / variables[1]) * 1024) / 1024), variables[2]) 
+                    Math.pow((y / variables[1]), variables[2]) 
                     * 1024);
                 frameAndBin[1] = Math.floor(Math.abs(frameAndBin[1] - 1024));
             }

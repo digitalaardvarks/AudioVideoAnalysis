@@ -9,7 +9,7 @@ autowatch = 1;
 inlets = 5;
 outlets = 4;
 
-var worldDim = [1024, 576];
+var worldDim = [852, 279];
 var enable = 0;
 var position = [0, 0];
 var fontColor = [0, 0, 0, 1];
@@ -20,9 +20,20 @@ var sgColor = 1;
 
 function mouse ()
 {
-    // font size nased on the 16:9 ratio of default x-dim (1024)
-    fontSize = (worldDim[0] / 66);
-
+    // fontSize from 12 to 15, based on Y-axis
+    if (worldDim[1] >= 279 && worldDim[1] <= 720)
+    {
+        fontSize = (3/(720 - 279)) * (worldDim[1]-279) + 12;
+    } else
+    {
+        if (worldDim[1] < 279)
+        {
+            fontSize = 12;
+        } else
+        {
+            fontSize = 15;
+        }
+    }
     // font color
     if (displayToggle != 3)
     {
