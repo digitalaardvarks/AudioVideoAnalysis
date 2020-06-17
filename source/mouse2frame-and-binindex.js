@@ -3,7 +3,7 @@ inlets = 2;
 outlets = 2;
 
 //Contains : worldDim (x, y), logExp, totalFrames, displayToggle
-var variables = [1024, 576, 1, 5167.9, 0] 
+var variables = [852, 279, 1, 2604.1, 0] 
 var frameAndBin = [0, 0];
 
 function params()
