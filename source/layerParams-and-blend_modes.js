@@ -30,12 +30,9 @@ var mg_blend_modes = [["blend_mode", 4, 6], ["blend_mode", 4, 6], ["blend_mode",
 					  ["blend_mode", 4, 6], ["blend_mode", 4, 6], ["blend_mode", 4, 4], ["blend_mode", 4, 4], // if displaytoggle == 2
 					  ["blend_mode", 4, 6], ["blend_mode", 4, 6], ["blend_mode", 4, 4], ["blend_mode", 4, 4]]; // if displaytoggle == 3;
 
-function anything(sgColor, mgColor, displayToggle)
-{
-	if (displayToggle != displayToggle_stored)
-	{
-		for (i=0; i<params_interval_range; i++)
-		{
+function anything(sgColor, mgColor, displayToggle) {
+	if (displayToggle != displayToggle_stored) {
+		for (i=0; i<params_interval_range; i++) {
 			outlet(0, sg_layer_params[i+(displayToggle*params_interval_range)]);
 			outlet(1, mg_layer_params[i+(displayToggle*params_interval_range)]);
 		}
@@ -45,19 +42,16 @@ function anything(sgColor, mgColor, displayToggle)
 	outlet(1, mg_blend_modes[(displayToggle*color_interval_range) + colorInterval(sgColor, mgColor)]);
 }
 
-function colorInterval(sgC, mgC)
-{	
+function colorInterval(sgC, mgC) {	
 	// 0 = RGB 
 	// 1 = Sg inverted
 	// 2 = Mg inverted
 	// 3 = Both inverted
 	var output = 0;
-	if (sgC%2 == 0)
-	{
+	if (sgC%2 == 0) {
 		output = 1;
 	}
-	if (mgC%2 == 0)
-	{
+	if (mgC%2 == 0) {
 		output += 2;
 	}
 	return output;

@@ -13,25 +13,17 @@ var frames_stored = 5167.9;
 var samplerate = 44100;
 var hopsize = 512;
 
-function main (xdim, inputframes, sr, hp)
-{
-    if (inputframes != frames_stored)
-    { 
+function main (xdim, inputframes, sr, hp) {
+    if (inputframes != frames_stored) { 
         frames_stored = inputframes;
     }
-
-    if (sr != samplerate)
-    {
+    if (sr != samplerate) {
         samplerate = sr;
     }
-
-    if (hp != hopsize)
-    {
+    if (hp != hopsize) {
         hopsize = hp;
     }
-
-    if (xdim != xdim_norm)
-    {
+    if (xdim != xdim_norm) {
         xdim_norm = xdim;
     }
 

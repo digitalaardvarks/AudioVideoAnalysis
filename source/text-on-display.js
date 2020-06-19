@@ -1,92 +1,70 @@
-// draw text in app display
-
-// inlet 1 = list of mouse drawing. all we care about are the first
-// three. which are [x, y, off/on(1 or 0)]
-// inlet 2 = world-dim. list of 2 elements.
-// inlet 3 = display toggle. integer from 0 to 3.
+// draw text in app display window
 
 autowatch = 1;
-inlets = 5;
+inlets = 2;
 outlets = 4;
 
-var worldDim = [852, 279];
 var enable = 0;
 var position = [0, 0];
-var fontColor = [0, 0, 0, 1];
+var fontColor_stored = [[0, 0, 0, 1], [1, 1, 1, 1], [1, 0, 0, 1]];
+var fontColor = [1, 1, 1, 1];
 var fontSize = 15;
-var displayToggle = 0;
-var mgColor = 1;
-var sgColor = 1;
 
-function mouse ()
-{
+// params = worldDim(x, y), sgColor, mgColor, DisplayToggle
+var params_stored = [852, 279, 1, 1, 0];
+
+function mouse () {
     // fontSize from 12 to 15, based on Y-axis
-    if (worldDim[1] >= 279 && worldDim[1] <= 720)
-    {
-        fontSize = (3/(720 - 279)) * (worldDim[1]-279) + 12;
-    } else
-    {
-        if (worldDim[1] < 279)
-        {
+    if (params_stored[1] >= 279 && params_stored[1] <= 720) {
+        fontSize = (3/(720 - 279)) * (params_stored[1]-279) + 12;
+    } else {
+        if (params_stored[1] < 279) {
             fontSize = 12;
-        } else
-        {
+        } else {
             fontSize = 15;
         }
     }
+
     // font color
-    if (displayToggle != 3)
-    {
-        if (sgColor == 2 || sgColor == 4)
-        {
-            for (i = 0; i < fontColor.length-1; i++)
-            {
-                fontColor[i] = 0;
+    // red if sg is inverted + grayscale
+    // in layered mode, both mg and sg have to be inv or inv-grayscale to be red.
+    if (params_stored[4] != 3) {
+        if (params_stored[2]%2 == 0) {
+            if (params_stored[2] == 4) {
+                fontColor = fontColor_stored[2];
+            } else {
+                fontColor = fontColor_stored[0];
             }
-        } else
-        {
-            for (i = 0; i < fontColor.length-1; i++)
-            {
-                fontColor[i] = 1;
-            }
+        } else {
+            fontColor = fontColor_stored[1];
         }
-    } else
-    {
-        if (mgColor == 2 || mgColor == 4)
-        {
-            for (i = 0; i < fontColor.length-1; i++)
-            {
-                fontColor[i] = 0;
+    } else {
+        if (params_stored[3]%2 == 0) {
+            if (params_stored[3]%2 == 0 && params_stored[2] == 4) {
+                fontColor = fontColor_stored[2];
+            } else {
+                fontColor = fontColor_stored[0];
             }
-        } else
-        {
-            for (i = 0; i < fontColor.length-1; i++)
-            {
-                fontColor[i] = 1;
-            }
+        } else {
+            fontColor = fontColor_stored[1];
         }
     }
     
     // mouse position
     var mouseState = arrayfromargs(arguments)
-    for(i = 0; i < worldDim.length; i ++)
-    {
+    for(i = 0; i < 2; i ++) {
         // scale and flip the y-coordinates.
-        if (i == 1)
-        {
-            position[i] = (((mouseState[i]/worldDim[i]) * 2) - 1) * -1;
-        } else
-        {
-            position[i] = (((mouseState[i]/worldDim[i]) * 2) - 1) * 1;
+        if (i == 1) {
+            position[i] = (((mouseState[i]/params_stored[i]) * 2) - 1) * -1;
+        } else {
+            position[i] = (((mouseState[i]/params_stored[i]) * 2) - 1) * 1;
         }
     }
 
     // if we are viewing only the mg, dont show clickpointer.
-    if (displayToggle == 2)
-    {
+    if (params_stored[4] == 2) {
         enable = 0;
-    } else
-    {
+    } else {
         enable = mouseState[2];
     }
 
@@ -96,22 +74,10 @@ function mouse ()
     outlet(0, "fontsize", fontSize);
 }
 
-function mg (a)
-{
-    mgColor = a;
-}
-
-function sg (b)
-{   
-    sgColor = b;
-}
-
-function toggle (c)
-{
-    displayToggle = c;
-}
-
-function world()
-{
-    worldDim = arrayfromargs(arguments);
+function params(wd, sg, mg, dt) {
+    for(i=0; i<arguments.length; i++) {
+        if (arguments[i] != params_stored[i]) {
+            params_stored[i] = arguments[i];
+        }
+    }
 }

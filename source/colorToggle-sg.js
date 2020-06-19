@@ -14,29 +14,22 @@ outlets = 1;
 var grayscale = 0;
 var inverted = 0;
 
-function anything(a)
-{
-    if (inlet == 0)
-    { 
-        if (a == 1)
-        {
+function anything(a) {
+    if (inlet == 0) { 
+        if (a == 1) {
             grayscale = 1;
             outlet(0, "sg", output());
-        } else 
-        { 
+        } else { 
             grayscale = 0;
             outlet(0, "sg", output());
         }
     }
 
-    if (inlet == 1)
-    {
-        if (a == 1)
-        {
+    if (inlet == 1) {
+        if (a == 1) {
             inverted = 1;
             outlet(0, "sg", output());
-        } else
-        {
+        } else {
             inverted = 0;
             outlet(0, "sg", output());
         }
@@ -44,26 +37,20 @@ function anything(a)
 }
 
 
-function output()
-{
-    if (grayscale + inverted == 0)
-    {
+function output() {
+    if (grayscale + inverted == 0) {
         return 1;
     }
 
-    if (grayscale + inverted == 1)
-    {
-        if (grayscale == 0)
-        {
+    if (grayscale + inverted == 1) {
+        if (grayscale == 0) {
             return 2;
-        } else
-        {
+        } else {
             return 3;
         }
     }
 
-    if (grayscale + inverted == 2)
-    {
+    if (grayscale + inverted == 2) {
         return 4;
     }
 }
