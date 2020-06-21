@@ -1,6 +1,6 @@
 # AudioVideoAnalysis 
 
-![AudioVideoAnalysis](https://github.com/fourMs/AudioVideoAnalysis/raw/master/documentation/AudioVideoAnalysis-1.0-ui.jpg)
+Picture of app UI
 
 A standalone application for realtime spectral analysis of audio and video. 
 AudioVideoAnalysis 2.0 (openGL version) now avaliable.
@@ -24,6 +24,8 @@ Additional features:
 ## Developers
 
 [Alexander Refsum Jensenius](http://people.uio.no/alexanje), [Aleksander Tidemann](https://github.com/AleksanderTidemann)
+
+The software is currently maintained by the [fourMs lab](https://github.com/fourMs) at [RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion](https://www.uio.no/ritmo/english/) at the University of Oslo.
 
 
 ## Reference
