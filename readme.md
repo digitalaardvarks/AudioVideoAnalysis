@@ -11,7 +11,7 @@ AudioVideoAnalysis 2.0 (openGL version) now avaliable.
 * Draw motiongram/videogram from any connected camera device. 
 
 Additional features:
-* Mulitple display modes.
+* Mulitple display viewing options.
 * Configure various audio, video and display parameters post-recording.
 * Retrieve spectrogram time, amplitude and frequency info at clickpoint.
 * **Customize the rate (display length in seconds) of image printing.**
