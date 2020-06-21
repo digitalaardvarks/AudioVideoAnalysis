@@ -6,9 +6,19 @@ A standalone application for realtime spectral analysis of audio and video.
 
 ## Features
 
-- Draws a spectrogram from any connected microphone
-- Draws a motiongram/videogram from any connected camera
-- Press the escape button to toggle fullscreen mode
+* Draw spectrogram from any sound source avaliable
+* Draw motiongram/videogram from any connected camera device. 
+
+Additional features:
+* Mulitple display modes.
+* Configure various audio, video and display parameters post-recording.
+* Retrieve spectrogram time, amplitude and frequency info at clickpoint.
+* **Customize the rate (display length in seconds) of image printing.**
+* Add analysis grid and markers (frequency and time) with dynamic grid size.
+* **Export the recorded images.**
+* Optional audio gain, spectral blurring and logarithmic frequency distribution of spectrogram
+* Dynamically choose which of audio channels to use for analysis (up to 4 channels).
+
 
 ## Developers
 
