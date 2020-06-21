@@ -3,6 +3,7 @@
 ![AudioVideoAnalysis](https://github.com/fourMs/AudioVideoAnalysis/raw/master/documentation/AudioVideoAnalysis-1.0-ui.jpg)
 
 A standalone application for realtime spectral analysis of audio and video. 
+AudioVideoAnalysis 2.0 (openGL version) now avaliable.
 
 ## Features
 
