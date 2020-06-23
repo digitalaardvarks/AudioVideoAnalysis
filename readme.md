@@ -22,7 +22,7 @@ Additional features:
 * Optional audio gain, spectral blurring and logarithmic frequency distribution of spectrogram
 * Dynamically choose which of audio channels to use for analysis (up to 4 channels).
 
-Please see this [tutorial](https://github.com/fourMs/AudioVideoAnalysis/wiki) for more information.
+Please see this [tutorial](https://github.com/fourMs/AudioVideoAnalysis/wiki/Get-started-with-AudioVideoAnalysis!) for more information.
 
 
 ## Developers
