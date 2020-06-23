@@ -1,6 +1,8 @@
 # AudioVideoAnalysis 
 
-<img src="/img/ava.jpg" width=800 height=600 align=center>
+<p align="center">
+ <img src="/img/ava.jpg" width=800 height=600>
+</p>
 
 A standalone application for realtime spectral analysis of audio and video. 
 AudioVideoAnalysis 2.0 (openGL version) now available.
