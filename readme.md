@@ -9,8 +9,8 @@ AudioVideoAnalysis 2.0 (openGL version) now available.
 
 ## Features
 
-* Draw spectrogram from any sound source available
-* Draw motiongram/videogram from any connected camera device. 
+* Draw spectrogram from any connected sound source
+* Draw motiongram/videogram from any connected camera source.
 
 Additional features:
 * Multiple display viewing options.
