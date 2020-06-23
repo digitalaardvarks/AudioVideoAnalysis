@@ -16,223 +16,228 @@
     <div id="page">
       <img src="img/ritmo.png" id="ritmo-icon">
 
-      <h1 id="title">Get started with VideoAnalysis!</h1>
+      <h1 id="title">Get started with AudioVideoAnalysis!</h1>
 
-      <h2 class="section-title">Open a video file</h2>
+      <h2 class="section-title">Record Audio and Video</h2>
       <p>
-        The simplest way to open a video file is to drag and drop it anywhere on
-        the interface.
+        AudioVideoAnalysis is designed for realtime spectral analysis of 
+        video and audio. by clicking <strong>record</strong>, said images 
+        are printed onto the applications <strong>display window</strong>. 
+        Alternatively, hit the <code>spacebar</code> to toggle recording on or off.
       </p>
 
       <figure>
         <img
-          src="img/01_open_file_dragdrop.png"
+          src="img/1-record.png"
         
           alt="Static Image"
-          data-alt="img/01_open_file_dragdrop.gif"
+          data-alt="img/1-record.gif"
         />
       </figure>
 
+      <h2 class="section-title">Device parameters</h2>
       <p>
-        You can also open a video file by clicking on the <b>File</b> button on the
-        <b>Add Video</b> panel.
+        Before recording, make sure you have selected your desired 
+        device parameters. These include <code>camera device</code>, 
+        <code>camera format (resolution) and general audio settings
+        </code> such as audio device, samplerate, buffersize, etc. 
+        The <code>refreshDevices</code> feature in the video section 
+        lets you refresh the video device list if you connect new video 
+        hardware to your computer while the application is running.
+      </p>
+
+      <img src="img/2-device-parameters.jpg" width="787" height="304"/>
+      
+
+      <h2 class="section-title">Audio parameters</h2>
+      <p>
+        AudioVideoAnalysis features three distinct sections of audio 
+        parameters that affect the spectrogram printed in the Display 
+        window. These are <code>audio channels</code>, <code>color
+        </code> and <code>processing</code>.
+      </p>
+
+      <img src="img/3-audio-parameters.jpg" width="787" height="304"/>
+
+      <p>
+        The <strong>logarithmic</strong> dial controls how logarithmic 
+        we want our spectrogram frequency distribution to be. A <em>higher</em> 
+        logarithmic value will create a steeper logarithmic curve along the 
+        Y-axis of the spectrogram.
       </p>
 
       <figure>
         <img
-          src="img/01_open_file_UI.png"
+          src="img/4-logfreq.png"
         
           alt="Static Image"
-          data-alt="img/01_open_file_UI.gif"
+          data-alt="img/4-logfreq.gif"
         />
       </figure>
 
       <p>
-        Alternatively you can open a video file by selecting <i>File > Open file...</i>
-        from the menu.
+        the <strong>spectral blur</strong> effect is, in principle, a vector-sized
+        delay and can be used to create more generalized images of the audio 
+        amplitude and frequency content. The spectral blur has 3 modes: <code>no 
+        blur</code> - <code>blur</code> - <code>lots of blur</code>.
       </p>
 
-      <img src="img/01_open_file_menu.png"/>
-
-      <h2 class="section-title">Open a folder of video files</h2>
+      <img src="img/5-spectral-blur.jpg" width="787" height="304"/>
 
       <p>
-        You can also work with an entire folder of video files. Again, the
-        easiest way open a folder is to drag and drop it on the interface. After
-        the folder has been loaded, you can see its contents as items in a
-        dropdown list.
+        AudioVideoAnalysis also features <strong>clickpoint data retrieval
+        </strong> of any recorded audio material. This means you can simply 
+        point and click anywhere in the display window and get the Amplitude of a 
+        certain Frequency(Hz) at a given Time(sec).
       </p>
 
       <figure>
         <img
-          src="img/02_open_folder_dragdrop.png"
+          src="img/6-clickpoint.png"
         
           alt="Static Image"
-          data-alt="img/02_open_folder_dragdrop.gif"
+          data-alt="img/6-clickpoint.gif"
         />
       </figure>
 
       <p>
-        You can also load a folder by clicking on the <b>Folder</b> button on the
-        <b>Add Video</b> panel.
+        <strong>Note</strong>: You can use the clickpoint feature, as well as 
+        manipulate the spectrograms color and logarithmic frequency distribution, 
+        post-recording.
+      </p>
+
+
+      <h2 class="section-title">Video parameters</h2>
+      <p>
+        AudioVideoAnalysis also features three distinct sections of video parameters
+        that affect the motion/videogram printed in the Display window. These are
+        <code>image selector</code>, <code>color</code> and <code>filter</code>. 
+        There is also a preview window that lets you see how the video-feed is 
+        processed <strong>before</strong> it&#39;s printed on the main display 
+        window.
+      </p>
+
+      <img src="img/7-video-parameters.jpg" width="787" height="304"/>
+
+      <p>
+        The <strong>Image selector</strong> lets you either view a videogram or motiongram
+         in the display window. Both images express vertical motion over time, the only 
+         difference is that a motiongram has some additional pre-processing which further 
+         isolates motion and reduces image noise.
+      </p>
+
+      <p>
+        When recording a motiongram, we can use a <strong>binary</strong> or
+        &quot;<strong>regular</strong>&quot;(unary) noise reduction filter to 
+        reduce unwanted noise in our video-feed. The differences between these two 
+        filters are subtle, but a general tendency is that the <strong>binary</strong> filter
+        is usually more &quot;radical&quot; than its <strong>regular</strong> counterpart. 
+        The preview window can help us see these effects more clearly.
       </p>
 
       <figure>
         <img
-          src="img/02_open_folder_UI.png"
+          src="img/8-mg-filters.png"
         
           alt="Static Image"
-          data-alt="img/02_open_folder_UI.gif"
+          data-alt="img/8-mg-filters.gif"
         />
       </figure>
 
       <p>
-        Alternatively you can open a folder by selecting <i>File > Open folder...</i>
-        from the menu.
+        <strong>Note</strong>: you can also manipulate the motion/videogram color post-recording.
       </p>
 
-      <img src="img/02_open_folder_menu.png"/>
-
-      <h2 class="section-title">Source Display</h2>
-
-      <img src="img/SourceDisplay.png"/>
+      <h2 class="section-title">Display parameters</h2>
 
       <p>
-        Within the <b>Source Display</b> you can find a little preview of the loaded video. 
-        You can toggle playback either by clicking on the Play icon, or by pressing the Space bar.
-        Below the Play icon you can find two yellow arrows, which you can use to nudge the playback
-        one frame forward or back. You can also do this by pressing <code>Shift + Left</code> arrow or <code>Shift + Right</code> 
-        arrow on your keyboard. Next to the Play icon you can see the <b>Timeline</b>. This can be used
-        to quickly skim through the video, and more importantly to select the trimming points of the 
-        analysis (see below). 
+        The application also features several display parameters that enable 
+        you to pre-configure and view your spectral recordings in various ways.
+        The <strong>Display</strong> section features a <code>RefreshWindow</code> 
+        button that clears all content from the display window, as well as a
+        <code>rate</code> and <code>grid size</code> function.
       </p>
 
-
-      <h2 class="section-title">Colors</h2>
-
-      <img src="img/Color.png"/>
+      <img src="img/9-display-parameters.jpg" width="787" height="304"/>
 
       <p>
-        To change the color space of your source video you have two options in VideoAnalysis.
-        To invert colors, go to <i>Color</i> in the menu and check <i>Invert colors</i>. You can 
-        also convert the video to greyscale by checking <i>Color > Greyscale</i>. Note that these
-        two options are independent from each other, so you can check either or both.
+        <strong>Rate</strong> controls how long it takes the spectral recordings to 
+        reach the end of the display window, or from x-min to x-max, effectively 
+        controlling the printing rate of the recording. Thus, a <em>higher</em> 
+        rate value will result in a <em>shorter</em> display length. This <code>Total 
+        Display Time</code> is dynamically expressed in seconds in the Display section 
+        of the UI. 
       </p>
 
-
-      <h2 class="section-title">Trimming</h2>
+      <img src="img/10-rate.jpg" width="787" height="615"/>
 
       <p>
-        On the <b>Source Display</b> you can set the in- and out-points of the analysis by selecting either
-        edge of the yellow area on the <b>Timeline</b> and dragging it to the desired timepoint. This will
-        affect the real-time playback as well as the analysis videos and images - you can get an idea by
-        observing the number of <b>Processed frames</b>.
+        There are also more display options in the <strong>Menubar</strong>.
+      </p>
+
+      <img src="img/11-menubar-display-options.jpg" width="378" height="204"/>
+
+      <p>
+        <code>Bring Display to Front</code> will enable your display window to always 
+        be in front of the app UI. Underneath this option, you find 4 different 
+        <strong>viewing options</strong>. These toggle different ways to view your 
+        spectral recording in the display window. 
       </p>
 
       <figure>
         <img
-          src="img/04_trimming.png"
+          src="img/12-view-options.png"
         
           alt="Static Image"
-          data-alt="img/04_trimming.gif"
+          data-alt="img/12-view-options.gif"
         />
       </figure>
 
-
-      <h2 class="section-title">Skipping</h2>
-
       <p>
-        In order to save time, skipping every other frame, or more, in the analysis 
-        can give you a faster analysis while still getting an idea of the motion. 
-        You can for example set this to 2, to skip two frames before including 
-        a frame in the analysis, then skipping two again. If skipping is set to 1, then
-        the analysis will skip every other frame. You can get an idea about how it works 
-        by observing the number of <b>Processed frames</b>. Skipping frames can be a huge
-        timesaver when working with extremely long videos.
-      </p>
-
-      <img src="img/05_skipping.png"/>
-
-      <h2 class="section-title">Cropping</h2>
-
-      <p>
-        To crop the source video here is what you should do:
-        <ol>
-          <li>In the <b>Cropping</b> panel activate cropping with the toggle.</li>
-          <li>In the <b>Source Display</b> draw a rectangle over the area you wish to keep.</li>
-          <li>Optionally you can also finetune the position of this cropping rectangle with the number boxes.</li>
-        </ol>
+        Lastly, you can add <strong>Analysis markers</strong> by toggling the 
+        <code>View Display Markers</code> and <code>View Display Grid</code> options. 
+        Furthermore, by configuring the <code>Grid Size</code> parameter in the app UI, 
+        you can change the size of your analysis grid. Beware that a grid size of 6 
+        corresponds to a visible 4x4 grid. This is because it requires 6 vertical and 
+        horizontal lines to generate a 4x4 grid.
       </p>
 
       <figure>
         <img
-          src="img/03_cropping.png"
+          src="img/13-analysis-markers.png"
         
           alt="Static Image"
-          data-alt="img/03_cropping.gif"
+          data-alt="img/13-analysis-markers.gif"
         />
       </figure>
 
-      <h2 class="section-title">The Display window</h2>
-
-      <img src="img/DisplayWindow.png"/>
-
       <p>
-        The real-time preview of the analysis can be observed in the <b>Display</b> window. It consists of
-        the bounding box video, the history video and the motion video, respectively. You can toggle
-        these independently from the <i>Display</i> menu, with the additional option to set the window
-        into floating mode. The <b>Display</b> always resizes automatically when you are changing the cropping
-        dimension. To adjust the scale of the <b>Display</b> window use dial in the lower-right corner of the interface.
+        <strong>Note</strong>: You can resize the display window by simply clicking and 
+        dragging. Furthermore, you can change viewing options and add/remove analysis markers
+        post-recording.
       </p>
-
-      <img src="img/DisplayScale.png"/>
 
       <h2 class="section-title">Export options</h2>
-
-      <img src="img/ExportOptions.png"/>
-
       <p>
-        When you are satisfied with the current settings it is time to decide what kind of images and videos to render.
-        You can toggle these in the <i>Export options</i> menu. Additionally you can also select which filetype you want
-        to use for your images.
+        An important feature of the 2.0 version of AudioVideoAnalysis is the ability to export
+        the images we create. It is important to note here that <strong>the applications 
+        post-recording processing abilities are in place such that we can find good images
+        to export for further analysis.</strong>
       </p>
 
-      <h2 class="section-title">Export</h2>
-
-      <p>
-        To perform the analysis, render all your images, videos, as well as a statistical analysis of motion and a log 
-        file, just press the button which says 'Click to export data'. All files will be placed in the same folder as 
-        your source video.
-      </p>
-
-      <img src="img/ExportButton.png"/>
-
-      <h2 class="section-title">Settings</h2>
-
-      <img src="img/Settings.png"/>
-
-      <p>
-        When working with folders, by default VideoAnalysis keeps all settings local to each video. You can change
-        this behavior by selecting <i>Settings > Use same settings for each file</i>. In this case the last settings
-        (ie. the ones you had at the moment of changing to this mode) will apply to each video file during the batch 
-        export. To go back to using independent settings, select <i>Remember settings for each file</i>. It is also 
-        possible to save or load all settings into a .json file. This can make it easy to pick up your work where
-        you left it, or to share your settings with other users.
-      </p>
+      <img src="img/14-export-options.jpg" width="297" height="233"/>
 
       <h2 class="section-title">Report a problem</h2>
-
-      <img src="img/report.png"/>
-
       <p>
-        Have you experienced errors or any strange behavior from VideoAnalysis? If you take a moment and report it to
-        us, you can greatly contribute to the development of this software. Clicking on <i>Help > Report a problem...</i>
-        opens your default internet browser and takes you straight to the Issues page at our Github repository for VideoAnalysis.
-        Here you can click on the (green) <b>New issue</b> button, and tell us about the problem.
+        Have you experienced errors or any strange behavior from AudioVideoAnalysis? If you
+        take a moment and report it to us, you can greatly contribute to the development
+        of this software. Clicking on <em>Help &gt; Report a problem...</em> opens your
+        default internet browser and takes you straight to the Issues page at our Github
+        repository for AudioVideoAnalysis. Here you can click on the (green) <strong>New
+        issue</strong> button, and tell us about the problem.
       </p>
 
-
-
+      <img src="img/15-report-issue.jpg" width="516" height="237"/>
 
     </div>
     <script src="js/script.js"></script>

@@ -1,110 +1,114 @@
-![](img/ritmo.png)
+# Get started with AudioVideoAnalysis!
 
-# Get started with VideoAnalysis!
+![app](/img/ava.jpg)
 
-## Open a video file
+## Record Audio and Video
 
-The simplest way to open a video file is to drag and drop it anywhere on the interface.
+AudioVideoAnalysis is designed for realtime spectral analysis of video and audio. by clicking **record**, said images are printed onto the applications **display window**. Alternatively, hit the `spacebar` to toggle recording on or off.
 
-![](img/01_open_file_dragdrop.gif)
 
-You can also open a video file by clicking on the **File** button on the **Add Video** panel.
+![record](/img/1-record.gif)
 
-![](img/01_open_file_UI.gif)
 
-Alternatively you can open a video file by selecting _File \> Open
-file\..._ from the menu.
+## Device parameters
 
-![](img/01_open_file_menu.png)
+Before recording, make sure you have selected your desired device parameters. These include `camera device`, `camera format (resolution) and general audio settings` such as audio device, samplerate, buffersize, etc. The `refreshDevices` feature in the video section lets you refresh the video device list if you connect new video hardware to your computer while the application is running.   
 
-## Open a folder of video files
 
-You can also work with an entire folder of video files. Again, the
-easiest way open a folder is to drag and drop it on the interface. After the folder has been loaded, you can see its contents as items in a dropdown list.
+![devices](/img/2-device-parameters.jpg)
 
-![](img/02_open_folder_dragdrop.gif)
 
-You can also load a folder by clicking on the **Folder** button on the **Add Video** panel.
+## Audio parameters
 
-![](img/02_open_folder_UI.gif)
+AudioVideoAnalysis features three distinct sections of audio parameters that affect the spectrogram printed in the Display window. These are `audio channels`, `color` and `processing`. 
 
-Alternatively you can open a folder by selecting _File \> Open
-folder\..._ from the menu.
 
-![](img/02_open_folder_menu.png)
+![audio](/img/3-audio-parameters.jpg)
 
-## Source Display
 
-![](img/SourceDisplay.png)
+The **logarithmic** dial controls how logarithmic we want our spectrogram frequency distribution to be. A *higher* logarithmic value will create a steeper logarithmic curve along the Y-axis of the spectrogram. 
 
-Within the **Source Display** you can find a little preview of the
-loaded video. You can toggle playback either by clicking on the Play
-icon, or by pressing the Space bar. Below the Play icon you can find two yellow arrows, which you can use to nudge the playback one frame forward or back. You can also do this by pressing `Shift + Left` arrow or `Shift + Right` arrow on your keyboard. Next to the Play icon you can see the **Timeline**. This can be used to quickly skim through the video, and more importantly to select the trimming points of the analysis (see below).
 
-## Colors
+![logfreq](/img/4-logfreq.gif)
 
-![](img/Color.png)
 
-To change the color space of your source video you have two options in VideoAnalysis. To invert colors, go to _Color_ in the menu and check _Invert colors_. You can also convert the video to greyscale by checking _Color \> Greyscale_. Note that these two options are independent from each other, so you can check either or both.
+the **spectral blur** effect is, in principle, a vector-sized delay and can be used to create more generalized images of the audio amplitude and frequency content. The spectral blur has 3 modes: `no blur` - `blur` - `lots of blur`. 
 
-## Trimming
 
-On the **Source Display** you can set the in- and out-points of the
-analysis by selecting either edge of the yellow area on the **Timeline** and dragging it to the desired timepoint. This will affect the real-time playback as well as the analysis videos and images - you can get an idea by observing the number of **Processed frames**.
+![spectral](/img/5-spectral-blur.jpg)
 
-![](img/04_trimming.gif)
 
-## Skipping
+AudioVideoAnalysis also features **clickpoint data retrieval** of any recorded audio material. This means you can simply point and click anywhere in the display window and get the Amplitude of a certain Frequency(Hz) at a given Time(sec).
 
-In order to save time, skipping every other frame, or more, in the
-analysis can give you a faster analysis while still getting an idea of the motion. You can for example set this to 2, to skip two frames before including a frame in the analysis, then skipping two again. If skipping is set to 1, then the analysis will skip every other frame. You can get an idea about how it works by observing the number of **Processed frames**. Skipping frames can be a huge timesaver when working with extremely long videos.
 
-![](img/05_skipping.png)
+![clickpoint](/img/6-clickpoint.gif)
 
-## Cropping
 
-To crop the source video here is what you should do:
+**Note**: You can use the clickpoint feature, as well as manipulate the spectrograms color and logarithmic frequency distribution, post-recording.
 
-1.  In the **Cropping** panel activate cropping with the toggle.
-2.  In the **Source Display** draw a rectangle over the area you wish to keep.
-3.  Optionally you can also finetune the position of this cropping
-    rectangle with the number boxes.
+## Video parameters
 
-![](img/03_cropping.gif)
+AudioVideoAnalysis also features three distinct sections of video parameters that affect the motion/videogram printed in the Display window. These are `image selector`, `color` and `filter`. There is also a preview window that lets you see how the video-feed is processed **before** it's printed on the main display window.
 
-## The Display window
 
-![](img/DisplayWindow.png)
+![video](/img/7-video-parameters.jpg)
 
-The real-time preview of the analysis can be observed in the **Display** window. It consists of the bounding box video, the history video and the motion video, respectively. You can toggle these independently from the _Display_ menu, with the additional option to set the window into floating mode. The **Display** always resizes automatically when you are changing the cropping dimension. To adjust the scale of the **Display** window use dial in the lower-right corner of the interface.
 
-![](img/DisplayScale.png)
+The **Image selector** lets you either view a videogram or motiongram in the display window. Both images express vertical motion over time, the only difference is that a motiongram has some additional pre-processing which further isolates motion and reduces image noise. 
 
-## Export options
+When recording a motiongram, we can use a **binary** or "**regular**"(unary) noise reduction filter to reduce unwanted noise in our video-feed. The differences between these two filters are subtle, but a general tendency is that the **binary** filter is usually more "radical" than its **regular** counterpart. The preview window can help us see these effects more clearly.
 
-![](img/ExportOptions.png)
 
-When you are satisfied with the current settings it is time to decide
-what kind of images and videos to render. You can toggle these in the
-_Export options_ menu. Additionally you can also select which filetype you want to use for your images.
+![mg](/img/8-mg-filters.gif)
 
-## Export
 
-To perform the analysis, render all your images, videos, as well as a
-statistical analysis of motion and a log file, just press the button
-which says \'Click to export data\'. All files will be placed in the
-same folder as your source video.
+**Note**: you can also manipulate the motion/videogram color post-recording.
 
-![](img/ExportButton.png)
+## Display parameters
 
-## Settings
+The application also features several display parameters that enable you to pre-configure and view your spectral recordings in various ways. The **Display** sections feature a `RefreshWindow` button that clears all content from the display window, as well as a `rate` and `grid size` function.
 
-![](img/Settings.png)
 
-When working with folders, by default VideoAnalysis keeps all settings local to each video. You can change this behavior by selecting _Settings \> Use same settings for each file_. In this case the last settings (ie. the ones you had at the moment of changing to this mode) will apply to each video file during the batch export. To go back to using independent settings, select _Remember settings for each file_. It is also possible to save or load all settings into a .json file. This can make it easy to pick up your work where you left it, or to share your settings with other users.
+![display](/img/9-display-parameters.jpg)
+
+
+**Rate** controls how long it takes the spectral recordings to reach the end of the display window, or from x-min to x-max, effectively controlling the printing rate of the recording. Thus, a *higher* rate value will result in a *shorter* display length. This `Total Display Time` is dynamically expressed in seconds in the Display section of the UI.  
+
+
+![rate](/img/10-rate.jpg)
+
+
+There are also more display options in the **Menubar**.
+
+
+![displaymenu](/img/11-menubar-display-options.jpg)
+
+
+`Bring Display to Front` will enable your display window to always be in front of the app UI. Underneath this option, you find 4 different **viewing options**. These toggle different ways to view your spectral recording in the display window.
+
+
+![viewoptions](/img/12-view-options.gif)
+
+
+Lastly, you can add **Analysis markers** by toggling the `View Display Markers` and `View Display Grid` options. Furthermore, by configuring the `Grid Size` parameter in the app UI, you can change the size of your analysis grid. Beware that a grid size of 6 corresponds to a visible 4x4 grid. This is because it requires 6 vertical and horizontal lines to generate a 4x4 grid.
+
+
+![analysismarkers](/img/13-analysis-markers.gif)
+
+
+**Note**: You can resize the display window by simply clicking and dragging. Furthermore, you can change viewing options and add/remove analysis markers post-recording.
+
+## Export your recordings
+
+An important feature of the 2.0 version of AudioVideoAnalysis is the ability to export the images we create. It is important to note here that **the applications post-recording processing abilities are in place such that we can find good images to export for further analysis.**
+
+
+![expop](/img/14-export-options.jpg)
+
 
 ## Report a problem
 
-![](img/report.png)
+Have you experienced errors or any strange behavior from AudioVideoAnalysis? If you take a moment and report it to us, you can greatly contribute to the development of this software. Clicking on _Help \> Report a problem\..._ opens your default internet browser and takes you straight to the Issues page at our Github repository for AudioVideoAnalysis. Here you can click on the (green) **New issue** button, and tell us about the problem.
 
-Have you experienced errors or any strange behavior from VideoAnalysis? If you take a moment and report it to us, you can greatly contribute to the development of this software. Clicking on _Help \> Report a problem\..._ opens your default internet browser and takes you straight to the Issues page at our Github repository for VideoAnalysis. Here you can click on the (green) **New issue** button, and tell us about the problem.
+
+![report](/img/15-report-issue.jpg)
