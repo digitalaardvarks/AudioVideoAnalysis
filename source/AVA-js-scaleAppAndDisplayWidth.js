@@ -1,6 +1,6 @@
 // This is the "Fixed Initial Window Location" you see in
 // the patcher inspector. Note that it is [x, y, width, height]
-var appWindow = [10, 50, 852, 276];
+var appWindow = [10, 50, 852, 274];
 
 var p = this.patcher;
 var parent = this.patcher.parentpatcher;

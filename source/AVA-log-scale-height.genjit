@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "jit.gen",
-		"rect" : [ 1093.0, 222.0, 402.0, 541.0 ],
+		"rect" : [ 1007.0, 217.0, 402.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,8 +68,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.25, 407.0, 36.25, 22.0 ],
-					"text" : "* 10"
+					"patching_rect" : [ 90.25, 413.0, 36.25, 22.0 ],
+					"text" : "* 15"
 				}
 
 			}

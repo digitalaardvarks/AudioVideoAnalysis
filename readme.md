@@ -1,17 +1,17 @@
 # AudioVideoAnalysis 
 
-Picture of app UI
+![2.0](/img/ava.jpg)
 
 A standalone application for realtime spectral analysis of audio and video. 
-AudioVideoAnalysis 2.0 (openGL version) now avaliable.
+AudioVideoAnalysis 2.0 (openGL version) now available.
 
 ## Features
 
-* Draw spectrogram from any sound source avaliable
+* Draw spectrogram from any sound source available
 * Draw motiongram/videogram from any connected camera device. 
 
 Additional features:
-* Mulitple display viewing options.
+* Multiple display viewing options.
 * Configure various audio, video and display parameters post-recording.
 * Retrieve spectrogram time, amplitude and frequency info at clickpoint.
 * **Customize the rate (display length in seconds) of image printing.**
@@ -19,6 +19,8 @@ Additional features:
 * **Export the recorded images.**
 * Optional audio gain, spectral blurring and logarithmic frequency distribution of spectrogram
 * Dynamically choose which of audio channels to use for analysis (up to 4 channels).
+
+Please see this tutorial for more information.
 
 
 ## Developers
