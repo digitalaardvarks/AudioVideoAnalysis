@@ -232,7 +232,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2091.0, 344.292723999999907, 54.0, 20.0 ],
+					"patching_rect" : [ 1971.0, 252.292723999999907, 54.0, 20.0 ],
 					"text" : "for doc"
 				}
 
@@ -319,7 +319,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 887.36322937500006, 983.366258784042657, 97.0, 22.0 ],
+					"patching_rect" : [ 883.36322937500006, 986.366258784042657, 97.0, 22.0 ],
 					"text" : "r display-toggle"
 				}
 
@@ -375,7 +375,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1970.0, 352.0, 58.0, 22.0 ],
+					"patching_rect" : [ 1850.0, 260.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -386,7 +386,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1970.0, 424.305051326751709, 105.0, 22.0 ],
+					"patching_rect" : [ 1850.0, 332.305051326751709, 105.0, 22.0 ],
 					"text" : "s root_patch_path"
 				}
 
@@ -398,7 +398,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1970.0, 388.07429963350296, 245.0, 22.0 ],
+					"patching_rect" : [ 1850.0, 296.07429963350296, 245.0, 22.0 ],
 					"text" : "mgt.getpatcherpath AudioVideoAnalysis-2.0"
 				}
 
@@ -409,7 +409,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1973.314280999999937, 309.5, 118.0, 22.0 ],
+					"patching_rect" : [ 1853.314280999999937, 217.5, 118.0, 22.0 ],
 					"text" : "s patch_got_closed"
 				}
 
@@ -421,7 +421,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1973.314280999999937, 281.0, 63.0, 22.0 ],
+					"patching_rect" : [ 1853.314280999999937, 189.0, 63.0, 22.0 ],
 					"text" : "closebang"
 				}
 
@@ -430,11 +430,10 @@
 				"box" : 				{
 					"color" : [ 0.094117647058824, 0.647058823529412, 0.682352941176471, 1.0 ],
 					"id" : "obj-98",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1255.546021124999697, 900.525309897660009, 138.0, 36.0 ],
+					"patching_rect" : [ 1278.546021124999697, 878.525309897660009, 142.0, 22.0 ],
 					"text" : "AVA-export-image export"
 				}
 
@@ -451,7 +450,7 @@
 					"patching_rect" : [ 386.540097249999803, 261.093752999999879, 114.462906431255988, 32.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 129.653913406250467, 93.454187781093523, 75.427653749999536, 32.0 ],
+					"presentation_rect" : [ 135.313052781250235, 93.454187781093523, 75.427653749999536, 32.0 ],
 					"text" : "Press ESC for fullscreen",
 					"textcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ]
 				}
@@ -687,30 +686,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1135.004354458333182, 983.366258784042657, 35.0, 22.0 ],
-					"text" : "t b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1135.004354458333182, 1016.347379301884757, 169.570778000000246, 36.0 ],
-					"text" : "s from-display-routing-bang-mg"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -775,10 +750,10 @@
 					"color" : [ 0.098039215686275, 0.650980392156863, 0.686274509803922, 1.0 ],
 					"id" : "obj-170",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 1011.298375250000049, 780.008008282612536, 210.661958416666494, 22.0 ],
+					"patching_rect" : [ 1011.298375250000049, 780.008008282612536, 122.955979208333133, 22.0 ],
 					"text" : "AVA-gl-motiongram"
 				}
 
@@ -790,7 +765,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1234.296021125000152, 653.75, 100.0, 22.0 ],
+					"patching_rect" : [ 1225.504354458333182, 666.75, 100.0, 22.0 ],
 					"text" : "prepend toggle"
 				}
 
@@ -802,7 +777,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1348.296021125000152, 653.75, 100.0, 22.0 ],
+					"patching_rect" : [ 1342.296021125000152, 666.75, 100.0, 22.0 ],
 					"text" : "prepend amount"
 				}
 
@@ -815,7 +790,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2270.564280999999937, 287.292723999999907, 91.499999999999773, 26.0 ],
+					"patching_rect" : [ 2150.564280999999937, 195.292723999999907, 91.499999999999773, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.902401542318245, 145.642466282998441, 79.0, 26.0 ],
 					"text" : "Display",
@@ -829,9 +804,9 @@
 					"id" : "obj-157",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1107.129354458333182, 696.75, 145.5, 22.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1115.254354458333182, 725.75, 129.25, 22.0 ],
 					"text" : "AVA-vg-mg-selector"
 				}
 
@@ -955,7 +930,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1012.629354458333296, 1018.366258784042657, 110.999999999999886, 36.0 ],
+					"patching_rect" : [ 1012.629354458333296, 1017.385138266200556, 110.999999999999886, 36.0 ],
 					"text" : "jit.gl.pix @gen AVA-mg-gl-colors"
 				}
 
@@ -987,7 +962,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1299.879354458333182, 517.25, 67.41666666666697, 48.0 ],
+					"patching_rect" : [ 1293.879354458333182, 524.25, 67.41666666666697, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 564.49281473177075, 34.875027234433716, 77.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1187,7 +1162,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 335.0, 437.0 ],
+						"rect" : [ 219.0, 217.0, 264.0, 195.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1217,118 +1192,11 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 170.955194499999834, 211.834462227234326, 72.0, 22.0 ],
-									"text" : "unpack"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-24",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.955194499999834, 283.834462227234326, 100.0, 22.0 ],
-									"text" : "pak dim 320 240"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-17",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 183.455194499999834, 244.834462227234326, 82.0, 22.0 ],
-									"text" : "r x-dim-value"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-215",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 197.834462227234326, 75.0, 20.0 ],
-									"text" : "reset texture"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-38",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 170.955194499999834, 176.834462227234326, 72.0, 22.0 ],
-									"text" : "r world-dim"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-29",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 74.0, 378.834462227234326, 100.0, 22.0 ],
-									"text" : "s clear-texture"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-218",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 96.0, 176.834462227234326, 56.0, 36.0 ],
-									"text" : "pack setall 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-219",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 74.0, 140.834462227234326, 41.0, 22.0 ],
-									"text" : "b 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-221",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 74.0, 331.834462227234326, 172.0, 22.0 ],
-									"text" : "jit.matrix 4 char @dim 320 240"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 126.5, 140.834462227234326, 124.0, 22.0 ],
+									"patching_rect" : [ 74.0, 139.0, 124.0, 22.0 ],
 									"text" : "s reset-counter-bang"
 								}
 
@@ -1338,10 +1206,10 @@
 									"id" : "obj-145",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "bang", "bang", "bang", "clear" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "clear" ],
 									"patching_rect" : [ 74.0, 75.0, 176.5, 22.0 ],
-									"text" : "t b b b clear"
+									"text" : "t b b clear"
 								}
 
 							}
@@ -1351,7 +1219,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 179.0, 115.0, 75.0, 22.0 ],
+									"patching_rect" : [ 152.75, 108.0, 75.0, 22.0 ],
 									"text" : "s clear-bang"
 								}
 
@@ -1372,22 +1240,8 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-219", 0 ],
-									"source" : [ "obj-145", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"source" : [ "obj-145", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-64", 0 ],
-									"source" : [ "obj-145", 3 ]
+									"source" : [ "obj-145", 0 ]
 								}
 
 							}
@@ -1400,57 +1254,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-24", 1 ],
-									"source" : [ "obj-17", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-221", 0 ],
-									"source" : [ "obj-218", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-218", 0 ],
-									"source" : [ "obj-219", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-221", 0 ],
-									"source" : [ "obj-219", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-29", 0 ],
-									"source" : [ "obj-221", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-221", 0 ],
-									"source" : [ "obj-24", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-24", 2 ],
-									"source" : [ "obj-26", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-26", 0 ],
-									"source" : [ "obj-38", 0 ]
+									"destination" : [ "obj-64", 0 ],
+									"source" : [ "obj-145", 1 ]
 								}
 
 							}
@@ -1495,7 +1300,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1348.296021125000152, 581.687683199544836, 118.0, 22.0 ],
+					"patching_rect" : [ 1342.296021125000152, 590.687683199544836, 118.0, 22.0 ],
 					"text" : "scale 0. 1. 0.01 0.5"
 				}
 
@@ -1673,7 +1478,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1656.656768679619063, 145.146361999999954, 215.0, 34.0 ],
+					"patching_rect" : [ 1536.656768679619063, 53.146361999999954, 215.0, 34.0 ],
 					"text" : "resizing window is disabled by default. hit \"g\" to enable it (only for dev)"
 				}
 
@@ -1684,7 +1489,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1710.156768679618835, 217.792723999999907, 19.0, 20.0 ],
+					"patching_rect" : [ 1590.156768679618835, 125.792723999999907, 19.0, 20.0 ],
 					"text" : "g"
 				}
 
@@ -1696,7 +1501,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1663.0, 257.292723999999907, 95.0, 22.0 ],
+					"patching_rect" : [ 1543.0, 165.292723999999907, 95.0, 22.0 ],
 					"text" : "flags grow, exec"
 				}
 
@@ -1708,7 +1513,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1761.156768679618835, 291.292723999999907, 96.0, 22.0 ],
+					"patching_rect" : [ 1641.156768679618835, 199.292723999999907, 96.0, 22.0 ],
 					"text" : "prepend window"
 				}
 
@@ -1720,7 +1525,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1663.0, 216.792723999999907, 47.0, 22.0 ],
+					"patching_rect" : [ 1543.0, 124.792723999999907, 47.0, 22.0 ],
 					"text" : "sel 103"
 				}
 
@@ -1732,7 +1537,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 1663.0, 186.792723999999907, 50.5, 22.0 ],
+					"patching_rect" : [ 1543.0, 94.792723999999907, 50.5, 22.0 ],
 					"text" : "key"
 				}
 
@@ -1744,7 +1549,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1761.156768679618835, 215.792723999999907, 58.0, 22.0 ],
+					"patching_rect" : [ 1641.156768679618835, 123.792723999999907, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1756,7 +1561,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1761.156768679618835, 257.292723999999907, 108.0, 22.0 ],
+					"patching_rect" : [ 1641.156768679618835, 165.292723999999907, 108.0, 22.0 ],
 					"text" : "flags nogrow, exec"
 				}
 
@@ -1768,7 +1573,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1761.156768679618835, 344.292723999999907, 67.0, 22.0 ],
+					"patching_rect" : [ 1641.156768679618835, 252.292723999999907, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -1862,7 +1667,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.91274312500002, 499.75, 150.0, 20.0 ],
+					"patching_rect" : [ 138.91274312500002, 516.75, 150.0, 20.0 ],
 					"text" : "reset spectrogram counter"
 				}
 
@@ -1945,7 +1750,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 271.650972500000307, 469.75, 69.0, 22.0 ],
+					"patching_rect" : [ 271.650972500000307, 486.75, 69.0, 22.0 ],
 					"text" : "sel 1 0"
 				}
 
@@ -1956,7 +1761,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.650972500000307, 499.75, 100.0, 22.0 ],
+					"patching_rect" : [ 296.650972500000307, 516.75, 100.0, 22.0 ],
 					"text" : "s start-off-bang"
 				}
 
@@ -2081,7 +1886,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1236.129354791666628, 616.687683199544836, 189.0, 22.0 ],
+					"patching_rect" : [ 1225.504354458333182, 627.687683199544836, 189.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 403.611735026041742, 96.892428156093487, 237.881079705729007, 25.123519250000072 ],
 					"saved_attribute_attributes" : 					{
@@ -2295,6 +2100,7 @@
 					"focusbordercolor" : [ 0.827450980392157, 0.827450980392157, 0.827450980392157, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"hint" : "Press SPACE bar to toggle on/off recording",
 					"id" : "obj-5",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2354,7 +2160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1236.129354791666628, 581.687683199544836, 70.0, 22.0 ],
+					"patching_rect" : [ 1225.504354458333182, 590.687683199544836, 70.0, 22.0 ],
 					"text" : "loadmess 2"
 				}
 
@@ -2366,7 +2172,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2023.314280999999937, 151.146361999999954, 58.0, 22.0 ],
+					"patching_rect" : [ 1903.314280999999937, 59.146361999999954, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2379,7 +2185,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2023.314280999999937, 183.0, 130.0, 36.0 ],
+					"patching_rect" : [ 1903.314280999999937, 91.0, 130.0, 36.0 ],
 					"text" : ";\r\nmax videoengine viddll"
 				}
 
@@ -2391,7 +2197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1909.0, 102.866258784042657, 132.0, 22.0 ],
+					"patching_rect" : [ 1789.0, 10.866258784042657, 132.0, 22.0 ],
 					"text" : "loadmess pic ritmo.png"
 				}
 
@@ -2404,7 +2210,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2023.314280999999937, 230.542723999999907, 116.0, 22.0 ],
+					"patching_rect" : [ 1903.314280999999937, 138.542723999999907, 116.0, 22.0 ],
 					"text" : "bgcolor 200 200 200"
 				}
 
@@ -2418,7 +2224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1909.0, 139.542723999999907, 100.0, 100.0 ],
+					"patching_rect" : [ 1789.0, 47.542723999999907, 100.0, 100.0 ],
 					"pic" : "ritmo.png",
 					"presentation" : 1,
 					"presentation_rect" : [ -1.228451124999765, 8.821357433574221, 119.109375, 119.109375 ]
@@ -2460,7 +2266,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2270.564280999999937, 251.292723999999907, 67.0, 26.0 ],
+					"patching_rect" : [ 2150.564280999999937, 159.292723999999907, 67.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.789533901041978, 8.3456296717968, 52.0, 26.0 ],
 					"text" : "Video",
@@ -2518,20 +2324,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-60",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1906.0, 10.25, 150.0, 75.0 ],
-					"text" : "Alexander \nRefsum \nJensenius \n(c) 2008-2009\nwww.fourms.uio.no"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation" : "AudioVideoAnalysis",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -2540,7 +2332,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1808.0, 107.542723999999907, 70.0, 22.0 ],
+					"patching_rect" : [ 1688.0, 15.542723999999907, 70.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "",
@@ -2570,40 +2362,12 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-59",
-					"linecount" : 8,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2066.0, 10.25, 150.0, 117.0 ],
-					"text" : "How to: \n- connect your camera\n- connect your microphone\n- Turn on the processing\n- Adjust filters\n- Press the escape button to toggle fullscreen mode."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-58",
-					"linecount" : 9,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2230.0, 10.25, 150.0, 131.0 ],
-					"text" : "This program allows for studying audio and video at the same time. The spectrogram of the incoming audio is plotted on top, and the motiongram of the incoming video at the bottom. "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 17.0,
 					"id" : "obj-55",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2347.564280999999937, 251.292723999999907, 71.0, 26.0 ],
+					"patching_rect" : [ 2227.564280999999937, 159.292723999999907, 71.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.789533901041978, 145.642466282998441, 57.0, 26.0 ],
 					"text" : "Audio",
@@ -2620,7 +2384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1299.879354458333182, 478.25, 83.0, 22.0 ],
+					"patching_rect" : [ 1293.879354458333182, 487.25, 83.0, 22.0 ],
 					"text" : "loadmess 33"
 				}
 
@@ -2648,7 +2412,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2297.564280999999937, 183.0, 40.0, 22.0 ],
+					"patching_rect" : [ 2177.564280999999937, 91.0, 40.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 223.961408901041978, 3.3456296717968, 425.803971958333022, 134.060830523554841 ],
 					"proportion" : 0.39
@@ -2665,7 +2429,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2347.564280999999937, 217.323534784042749, 40.0, 22.0 ],
+					"patching_rect" : [ 2227.564280999999937, 125.323534784042749, 40.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.880923875000235, 3.3456296717968, 106.9736328125, 134.060830523554841 ],
 					"proportion" : 0.39
@@ -2682,7 +2446,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2297.564280999999937, 217.323534784042749, 40.0, 22.0 ],
+					"patching_rect" : [ 2177.564280999999937, 125.323534784042749, 40.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.640696207682282, 142.642466282998441, 219.145972872017808, 127.827429125078311 ],
 					"proportion" : 0.39
@@ -2699,7 +2463,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2347.564280999999937, 183.0, 40.0, 22.0 ],
+					"patching_rect" : [ 2227.564280999999937, 91.0, 40.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 223.820376244792271, 142.615442606562624, 616.352600852863816, 127.854452801514128 ],
 					"proportion" : 0.39
@@ -2900,13 +2664,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-170", 2 ],
-					"source" : [ "obj-157", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-170", 1 ],
 					"source" : [ "obj-157", 0 ]
 				}
@@ -2974,13 +2731,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-186", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -3487,16 +3237,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"order" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -3504,7 +3246,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -3512,7 +3254,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -3888,11 +3630,11 @@
 , 			{
 				"name" : "Filtergraph ICI",
 				"default" : 				{
-					"selectioncolor" : [ 1.0, 0.086275, 0.086275, 1.0 ],
-					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 0.47 ],
 					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"elementcolor" : [ 0.509804, 0.509804, 0.509804, 0.0 ],
+					"selectioncolor" : [ 1.0, 0.086275, 0.086275, 1.0 ],
 					"color" : [ 0.076538, 1.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.509804, 0.509804, 0.509804, 0.0 ]
+					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 0.47 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3901,11 +3643,11 @@
 , 			{
 				"name" : "GetsTheJobDone",
 				"default" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.65 ],
+					"accentcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"textjustification" : [ 2 ],
 					"fontname" : [ "Andale Mono" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.65 ],
-					"accentcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"fontsize" : [ 11.0 ]
 				}
 ,
@@ -3915,10 +3657,13 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"fontname" : [ "Open Sans Semibold" ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3928,10 +3673,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -3962,8 +3704,8 @@
 , 			{
 				"name" : "SleekBusiness",
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "GetsTheJobDone",
@@ -3991,10 +3733,10 @@
 , 			{
 				"name" : "Slitscan-1",
 				"default" : 				{
-					"selectioncolor" : [ 0.439216, 0.74902, 0.254902, 0.5 ],
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
-					"color" : [ 1.0, 0.032542, 0.0, 1.0 ],
-					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ]
+					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"selectioncolor" : [ 0.439216, 0.74902, 0.254902, 0.5 ],
+					"color" : [ 1.0, 0.032542, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4003,10 +3745,10 @@
 , 			{
 				"name" : "Slitscan-2",
 				"default" : 				{
-					"selectioncolor" : [ 0.439216, 0.74902, 0.254902, 0.5 ],
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
-					"color" : [ 1.0, 0.032542, 0.0, 1.0 ],
-					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ]
+					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"selectioncolor" : [ 0.439216, 0.74902, 0.254902, 0.5 ],
+					"color" : [ 1.0, 0.032542, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4015,13 +3757,13 @@
 , 			{
 				"name" : "blueYellowSlider",
 				"default" : 				{
-					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 					"bgcolor" : [ 0.027632, 0.0, 0.307692, 1.0 ],
-					"fontface" : [ 1 ],
-					"color" : [ 1.0, 0.788235, 0.301961, 1.0 ],
 					"accentcolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-					"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ]
+					"elementcolor" : [ 0.020779, 0.0, 0.307692, 1.0 ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
+					"color" : [ 1.0, 0.788235, 0.301961, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 0.788235, 0.301961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4057,32 +3799,9 @@
 , 			{
 				"name" : "dUG Yello 01-1",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
 					"fontface" : [ 1 ],
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
-						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontsize" : [ 10.0 ]
-				}
-,
-				"newobj" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ]
-				}
-,
-				"message" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4100,8 +3819,31 @@
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
 				}
 ,
+				"newobj" : 				{
+					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ],
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
+				}
+,
 				"button" : 				{
 					"bgcolor" : [ 1.0, 0.941176, 0.803922, 1.0 ]
+				}
+,
+				"message" : 				{
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.94902, 0.992157, 1.0, 1.0 ],
+						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4109,16 +3851,16 @@
 			}
 , 			{
 				"name" : "default_style",
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
 				"toggle" : 				{
 					"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"newobj" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"button" : 				{
@@ -4131,16 +3873,16 @@
 			}
 , 			{
 				"name" : "default_style-1",
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
 				"toggle" : 				{
 					"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"newobj" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"button" : 				{
@@ -4185,9 +3927,9 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontsize" : [ 12.0 ]
 				}
 ,
@@ -4197,12 +3939,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4210,15 +3952,65 @@
 			}
 , 			{
 				"name" : "master_style",
+				"multislider" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
 				"attrui" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"ezadc~" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"slider" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
+				}
+,
+				"ezdac~" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"gain~" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
+				}
+,
+				"kslider" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
@@ -4235,46 +4027,6 @@
 
 				}
 ,
-				"multislider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"function" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"ezadc~" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
-				}
-,
-				"slider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"ezdac~" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 1.0, 0.95051, 0.0, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
-				}
-,
 				"umenu" : 				{
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -4288,30 +4040,70 @@
 
 				}
 ,
-				"kslider" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"gain~" : 				{
-					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
 				"parentstyle" : "",
 				"multi" : 1
 			}
 , 			{
 				"name" : "master_style-1",
+				"multislider" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
 				"attrui" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"ezadc~" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"slider" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
+				}
+,
+				"ezdac~" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"gain~" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
+				}
+,
+				"kslider" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
@@ -4328,46 +4120,6 @@
 
 				}
 ,
-				"multislider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"function" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"ezadc~" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
-				}
-,
-				"slider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"ezdac~" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 1.0, 0.95051, 0.0, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
-				}
-,
 				"umenu" : 				{
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -4379,16 +4131,6 @@
 						"autogradient" : 0
 					}
 
-				}
-,
-				"kslider" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"gain~" : 				{
-					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4433,9 +4175,12 @@
 , 			{
 				"name" : "minimal",
 				"default" : 				{
-					"selectioncolor" : [ 0.862745, 0.741176, 0.137255, 0.7 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.878431, 0.878431, 0.858824, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 0.44 ],
+					"selectioncolor" : [ 0.862745, 0.741176, 0.137255, 0.7 ],
+					"color" : [ 0.345098, 0.513725, 0.572549, 0.78 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -4446,10 +4191,7 @@
 						"proportion" : 0.99,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.345098, 0.513725, 0.572549, 0.78 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 0.44 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -4458,12 +4200,15 @@
 , 			{
 				"name" : "multi_grey",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4473,50 +4218,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -4527,59 +4312,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4588,8 +4331,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -4598,12 +4340,15 @@
 , 			{
 				"name" : "multi_grey-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4614,72 +4359,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -4689,41 +4375,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4732,8 +4475,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -4742,12 +4484,15 @@
 , 			{
 				"name" : "multi_grey-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4757,50 +4502,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -4811,59 +4596,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4872,8 +4615,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -4882,12 +4624,15 @@
 , 			{
 				"name" : "multi_grey-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4898,72 +4643,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -4973,41 +4659,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5016,8 +4759,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -5026,12 +4768,15 @@
 , 			{
 				"name" : "multi_grey-1-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5042,72 +4787,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -5117,41 +4803,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5160,8 +4903,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -5170,12 +4912,15 @@
 , 			{
 				"name" : "multi_grey-1-1-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5185,50 +4930,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -5239,59 +5024,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5300,8 +5043,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -5310,12 +5052,15 @@
 , 			{
 				"name" : "multi_grey-1-1-1-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5326,72 +5071,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -5401,41 +5087,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5444,8 +5187,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -5454,12 +5196,15 @@
 , 			{
 				"name" : "multi_grey-1-1-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5470,72 +5215,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -5545,41 +5231,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5588,8 +5331,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -5598,12 +5340,15 @@
 , 			{
 				"name" : "multi_grey-1-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5614,72 +5359,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -5689,41 +5375,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5732,8 +5475,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -5742,12 +5484,15 @@
 , 			{
 				"name" : "multi_grey-1-1-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5758,72 +5503,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -5833,41 +5519,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5876,8 +5619,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -5886,12 +5628,15 @@
 , 			{
 				"name" : "multi_grey-1-1-4",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5902,72 +5647,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -5977,41 +5663,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6020,8 +5763,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6030,12 +5772,15 @@
 , 			{
 				"name" : "multi_grey-1-1-5",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6046,72 +5791,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -6121,41 +5807,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6164,8 +5907,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6174,12 +5916,15 @@
 , 			{
 				"name" : "multi_grey-1-1-6",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6190,72 +5935,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -6265,41 +5951,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6308,8 +6051,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6318,12 +6060,15 @@
 , 			{
 				"name" : "multi_grey-1-1-7",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6334,72 +6079,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -6409,41 +6095,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6452,8 +6195,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6462,12 +6204,15 @@
 , 			{
 				"name" : "multi_grey-1-1-8",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6477,50 +6222,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -6531,59 +6316,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6592,8 +6335,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6602,12 +6344,15 @@
 , 			{
 				"name" : "multi_grey-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6617,50 +6362,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -6671,59 +6456,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6732,8 +6475,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6742,12 +6484,15 @@
 , 			{
 				"name" : "multi_grey-1-2-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6758,72 +6503,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -6833,41 +6519,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6876,8 +6619,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6886,12 +6628,15 @@
 , 			{
 				"name" : "multi_grey-1-2-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6901,50 +6646,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -6955,59 +6740,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7016,8 +6759,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -7026,12 +6768,15 @@
 , 			{
 				"name" : "multi_grey-1-2-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7042,72 +6787,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -7117,41 +6803,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7160,8 +6903,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -7170,12 +6912,15 @@
 , 			{
 				"name" : "multi_grey-1-2-1-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7185,50 +6930,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -7239,59 +7024,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7300,8 +7043,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -7310,12 +7052,15 @@
 , 			{
 				"name" : "multi_grey-1-2-1-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7325,50 +7070,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -7379,59 +7164,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7440,8 +7183,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -7450,12 +7192,15 @@
 , 			{
 				"name" : "multi_grey-1-2-1-1-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7465,50 +7210,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -7519,59 +7304,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7580,8 +7323,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -7590,12 +7332,15 @@
 , 			{
 				"name" : "multi_grey-1-2-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7606,72 +7351,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -7681,41 +7367,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7724,8 +7467,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -7734,12 +7476,15 @@
 , 			{
 				"name" : "multi_grey-1-2-1-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7750,72 +7495,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -7825,41 +7511,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7868,8 +7611,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -7878,12 +7620,15 @@
 , 			{
 				"name" : "multi_grey-1-2-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7893,50 +7638,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -7947,59 +7732,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8008,8 +7751,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -8018,12 +7760,15 @@
 , 			{
 				"name" : "multi_grey-1-2-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8033,50 +7778,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -8087,59 +7872,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8148,8 +7891,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -8158,12 +7900,15 @@
 , 			{
 				"name" : "multi_grey-1-2-4",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8173,50 +7918,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -8227,59 +8012,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8288,8 +8031,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -8298,12 +8040,15 @@
 , 			{
 				"name" : "multi_grey-1-2-5",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8313,50 +8058,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -8367,59 +8152,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8428,8 +8171,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -8438,12 +8180,15 @@
 , 			{
 				"name" : "multi_grey-1-2-6",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8453,50 +8198,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -8507,59 +8292,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8568,8 +8311,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -8578,12 +8320,15 @@
 , 			{
 				"name" : "multi_grey-1-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8593,50 +8338,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -8647,59 +8432,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8708,8 +8451,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -8718,12 +8460,15 @@
 , 			{
 				"name" : "multi_grey-1-4",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8733,50 +8478,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -8787,59 +8572,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8848,8 +8591,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -8858,12 +8600,15 @@
 , 			{
 				"name" : "multi_grey-1-5",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8873,50 +8618,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -8927,59 +8712,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -8988,8 +8731,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -8998,12 +8740,15 @@
 , 			{
 				"name" : "multi_grey-1-6",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9013,50 +8758,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -9067,59 +8852,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9128,8 +8871,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -9138,12 +8880,15 @@
 , 			{
 				"name" : "multi_grey-1-7",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9153,50 +8898,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -9207,59 +8992,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9268,8 +9011,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -9278,12 +9020,15 @@
 , 			{
 				"name" : "multi_grey-1-8",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9293,50 +9038,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -9347,59 +9132,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9408,8 +9151,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -9418,12 +9160,15 @@
 , 			{
 				"name" : "multi_grey-1-9",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9434,72 +9179,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -9509,41 +9195,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9552,8 +9295,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -9562,12 +9304,15 @@
 , 			{
 				"name" : "multi_grey-10",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9577,50 +9322,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -9631,59 +9416,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9692,8 +9435,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -9702,12 +9444,15 @@
 , 			{
 				"name" : "multi_grey-11",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9717,50 +9462,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -9771,59 +9556,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9832,8 +9575,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -9842,12 +9584,15 @@
 , 			{
 				"name" : "multi_grey-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9857,50 +9602,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -9911,59 +9696,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9972,8 +9715,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -9982,12 +9724,15 @@
 , 			{
 				"name" : "multi_grey-2-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -9998,72 +9743,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -10073,41 +9759,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10116,8 +9859,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -10126,12 +9868,15 @@
 , 			{
 				"name" : "multi_grey-2-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10141,50 +9886,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -10195,59 +9980,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10256,8 +9999,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -10266,12 +10008,15 @@
 , 			{
 				"name" : "multi_grey-2-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10282,72 +10027,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -10357,41 +10043,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10400,8 +10143,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -10410,12 +10152,15 @@
 , 			{
 				"name" : "multi_grey-2-1-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10425,50 +10170,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -10479,59 +10264,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10540,8 +10283,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -10550,12 +10292,15 @@
 , 			{
 				"name" : "multi_grey-2-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10565,50 +10310,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -10619,59 +10404,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10680,8 +10423,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -10690,12 +10432,15 @@
 , 			{
 				"name" : "multi_grey-2-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10705,50 +10450,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -10759,59 +10544,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10820,8 +10563,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -10830,12 +10572,15 @@
 , 			{
 				"name" : "multi_grey-2-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10845,50 +10590,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -10899,59 +10684,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10960,8 +10703,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -10970,12 +10712,15 @@
 , 			{
 				"name" : "multi_grey-2-4",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10985,50 +10730,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -11039,59 +10824,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11100,8 +10843,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -11110,12 +10852,15 @@
 , 			{
 				"name" : "multi_grey-2-5",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11125,50 +10870,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -11179,59 +10964,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11240,8 +10983,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -11250,12 +10992,15 @@
 , 			{
 				"name" : "multi_grey-2-6",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11265,50 +11010,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -11319,59 +11104,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11380,8 +11123,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -11390,12 +11132,15 @@
 , 			{
 				"name" : "multi_grey-2-7",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11405,50 +11150,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -11459,59 +11244,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11520,8 +11263,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -11530,12 +11272,15 @@
 , 			{
 				"name" : "multi_grey-2-8",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11546,72 +11291,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -11621,41 +11307,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11664,8 +11407,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -11674,12 +11416,15 @@
 , 			{
 				"name" : "multi_grey-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11689,50 +11434,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -11743,59 +11528,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11804,8 +11547,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -11814,12 +11556,15 @@
 , 			{
 				"name" : "multi_grey-3-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11830,72 +11575,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -11905,41 +11591,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11948,8 +11691,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -11958,12 +11700,15 @@
 , 			{
 				"name" : "multi_grey-3-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11973,50 +11718,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -12027,59 +11812,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12088,8 +11831,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -12098,12 +11840,15 @@
 , 			{
 				"name" : "multi_grey-3-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12114,72 +11859,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -12189,41 +11875,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12232,8 +11975,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -12242,12 +11984,15 @@
 , 			{
 				"name" : "multi_grey-3-1-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12257,50 +12002,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -12311,59 +12096,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12372,8 +12115,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -12382,12 +12124,15 @@
 , 			{
 				"name" : "multi_grey-3-1-1-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12397,50 +12142,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -12451,59 +12236,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12512,8 +12255,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -12522,12 +12264,15 @@
 , 			{
 				"name" : "multi_grey-3-1-1-1-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12537,50 +12282,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -12591,59 +12376,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12652,8 +12395,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -12662,12 +12404,15 @@
 , 			{
 				"name" : "multi_grey-3-1-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12678,72 +12423,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -12753,41 +12439,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12796,8 +12539,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -12806,12 +12548,15 @@
 , 			{
 				"name" : "multi_grey-3-1-1-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12822,72 +12567,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -12897,41 +12583,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12940,8 +12683,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -12950,12 +12692,15 @@
 , 			{
 				"name" : "multi_grey-3-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12965,50 +12710,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -13019,59 +12804,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13080,8 +12823,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -13090,12 +12832,15 @@
 , 			{
 				"name" : "multi_grey-3-1-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13105,50 +12850,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -13159,59 +12944,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13220,8 +12963,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -13230,12 +12972,15 @@
 , 			{
 				"name" : "multi_grey-3-1-4",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13245,50 +12990,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -13299,59 +13084,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13360,8 +13103,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -13370,12 +13112,15 @@
 , 			{
 				"name" : "multi_grey-3-1-5",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13385,50 +13130,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -13439,59 +13224,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13500,8 +13243,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -13510,12 +13252,15 @@
 , 			{
 				"name" : "multi_grey-3-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13525,50 +13270,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -13579,59 +13364,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13640,8 +13383,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -13650,12 +13392,15 @@
 , 			{
 				"name" : "multi_grey-3-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13665,50 +13410,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -13719,59 +13504,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13780,8 +13523,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -13790,12 +13532,15 @@
 , 			{
 				"name" : "multi_grey-3-3-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13806,72 +13551,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -13881,41 +13567,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13924,8 +13667,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -13934,12 +13676,15 @@
 , 			{
 				"name" : "multi_grey-3-3-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -13949,50 +13694,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -14003,59 +13788,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14064,8 +13807,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -14074,12 +13816,15 @@
 , 			{
 				"name" : "multi_grey-3-3-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14089,50 +13834,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -14143,59 +13928,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14204,8 +13947,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -14214,12 +13956,15 @@
 , 			{
 				"name" : "multi_grey-3-3-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14229,50 +13974,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -14283,59 +14068,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14344,8 +14087,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -14354,12 +14096,15 @@
 , 			{
 				"name" : "multi_grey-3-4",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14369,50 +14114,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -14423,59 +14208,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14484,8 +14227,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -14494,12 +14236,15 @@
 , 			{
 				"name" : "multi_grey-3-5",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14509,50 +14254,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -14563,59 +14348,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14624,8 +14367,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -14634,12 +14376,15 @@
 , 			{
 				"name" : "multi_grey-3-5-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14650,72 +14395,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -14725,41 +14411,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14768,8 +14511,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -14778,12 +14520,15 @@
 , 			{
 				"name" : "multi_grey-3-5-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14793,50 +14538,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -14847,59 +14632,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14908,8 +14651,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -14918,12 +14660,15 @@
 , 			{
 				"name" : "multi_grey-3-5-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14933,50 +14678,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -14987,59 +14772,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15048,8 +14791,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -15058,12 +14800,15 @@
 , 			{
 				"name" : "multi_grey-3-5-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15073,50 +14818,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -15127,59 +14912,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15188,8 +14931,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -15198,12 +14940,15 @@
 , 			{
 				"name" : "multi_grey-3-5-4",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15213,50 +14958,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -15267,59 +15052,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15328,8 +15071,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -15338,12 +15080,15 @@
 , 			{
 				"name" : "multi_grey-3-6",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15354,72 +15099,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -15429,41 +15115,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15472,8 +15215,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -15482,12 +15224,15 @@
 , 			{
 				"name" : "multi_grey-3-7",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15498,72 +15243,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -15573,41 +15259,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15616,8 +15359,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -15626,12 +15368,15 @@
 , 			{
 				"name" : "multi_grey-3-8",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15642,72 +15387,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -15717,41 +15403,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15760,8 +15503,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -15770,12 +15512,15 @@
 , 			{
 				"name" : "multi_grey-4",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15786,72 +15531,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -15861,41 +15547,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15904,8 +15647,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -15914,12 +15656,15 @@
 , 			{
 				"name" : "multi_grey-4-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15929,50 +15674,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -15983,59 +15768,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16044,8 +15787,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -16054,12 +15796,15 @@
 , 			{
 				"name" : "multi_grey-4-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16070,72 +15815,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -16145,41 +15831,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16188,8 +15931,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -16198,12 +15940,15 @@
 , 			{
 				"name" : "multi_grey-4-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16213,50 +15958,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -16267,59 +16052,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16328,8 +16071,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -16338,12 +16080,15 @@
 , 			{
 				"name" : "multi_grey-4-1-1-1-1",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16354,72 +16099,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -16429,41 +16115,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16472,8 +16215,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -16482,12 +16224,15 @@
 , 			{
 				"name" : "multi_grey-4-1-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16498,72 +16243,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -16573,41 +16259,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16616,8 +16359,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -16626,12 +16368,15 @@
 , 			{
 				"name" : "multi_grey-4-1-1-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16642,72 +16387,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -16717,41 +16403,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16760,8 +16503,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -16770,12 +16512,15 @@
 , 			{
 				"name" : "multi_grey-4-1-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16785,50 +16530,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -16839,59 +16624,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16900,8 +16643,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -16910,12 +16652,15 @@
 , 			{
 				"name" : "multi_grey-4-1-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -16925,50 +16670,90 @@
 						"proportion" : 0.39
 					}
 ,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+				"multislider" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ]
+				}
+,
+				"dial" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
+				}
+,
+				"meter~" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -16979,59 +16764,17 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
-				}
-,
-				"dial" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"meter~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17040,8 +16783,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -17050,12 +16792,15 @@
 , 			{
 				"name" : "multi_grey-4-2",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17066,72 +16811,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -17141,41 +16827,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17184,8 +16927,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -17194,12 +16936,15 @@
 , 			{
 				"name" : "multi_grey-4-3",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17210,72 +16955,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -17285,41 +16971,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17328,8 +17071,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -17338,12 +17080,15 @@
 , 			{
 				"name" : "multi_grey-4-4",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17354,72 +17099,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -17429,41 +17115,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17472,8 +17215,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -17482,12 +17224,15 @@
 , 			{
 				"name" : "multi_grey-4-5",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17498,72 +17243,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -17573,41 +17259,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17616,8 +17359,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -17626,12 +17368,15 @@
 , 			{
 				"name" : "multi_grey-4-6",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17642,72 +17387,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -17717,41 +17403,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17760,8 +17503,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -17770,12 +17512,15 @@
 , 			{
 				"name" : "multi_grey-5",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17786,72 +17531,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -17861,41 +17547,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17904,8 +17647,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -17914,12 +17656,15 @@
 , 			{
 				"name" : "multi_grey-6",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -17930,72 +17675,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -18005,41 +17691,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -18048,8 +17791,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -18058,12 +17800,15 @@
 , 			{
 				"name" : "multi_grey-7",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -18074,72 +17819,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -18149,41 +17835,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -18192,8 +17935,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -18202,12 +17944,15 @@
 , 			{
 				"name" : "multi_grey-8",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -18218,72 +17963,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -18293,41 +17979,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -18336,8 +18079,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -18346,12 +18088,15 @@
 , 			{
 				"name" : "multi_grey-9",
 				"default" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Verdana" ],
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -18362,72 +18107,13 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"fontname" : [ "Arial" ],
-					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
-				"waveform~" : 				{
-					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"spectroscope~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"filtergraph~" : 				{
-					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"function" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
-				"tab" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"multislider" : 				{
@@ -18437,41 +18123,98 @@
 ,
 				"toggle" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"filtergraph~" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.38, 0.38, 0.38, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"number" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
+					"selectioncolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"textcolor_inverse" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"dial" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
-				"scope~" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
-				}
-,
-				"spectroscope~" : 				{
-					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				"waveform~" : 				{
+					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"elementcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
+					"color" : [ 0.3, 0.3, 0.3, 1.0 ]
 				}
 ,
 				"meter~" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"scope~" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"textbutton" : 				{
+					"bgcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"accentcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"elementcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.3, 0.3, 0.3, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"tab" : 				{
+					"elementcolor" : [ 0.3, 0.3, 0.3, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"panel" : 				{
+					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -18480,8 +18223,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -18506,6 +18248,9 @@
 				"name" : "new_yellow",
 				"default" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"patchlinecolor" : [ 0.862745, 0.741176, 0.137255, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -18516,29 +18261,26 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ]
+
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-,
-				"radiogroup" : 				{
+					"elementcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ],
 					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"newobj" : 				{
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+				}
+,
+				"radiogroup" : 				{
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -18548,6 +18290,9 @@
 				"name" : "new_yellow-1",
 				"default" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"color" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
 					"textcolor" : [ 0.319298, 0.79242, 0.856174, 1.0 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
 					"bgfillcolor" : 					{
@@ -18559,29 +18304,26 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-,
-				"radiogroup" : 				{
+					"elementcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ],
 					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"newobj" : 				{
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+				}
+,
+				"radiogroup" : 				{
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -18591,6 +18333,9 @@
 				"name" : "new_yellow-1-1",
 				"default" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"patchlinecolor" : [ 0.862745, 0.741176, 0.137255, 0.9 ],
 					"bgfillcolor" : 					{
@@ -18602,29 +18347,26 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 				}
 ,
 				"button" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-,
-				"radiogroup" : 				{
+					"elementcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ],
 					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"newobj" : 				{
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+				}
+,
+				"radiogroup" : 				{
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -19041,12 +18783,12 @@
 , 			{
 				"name" : "orangeBlue",
 				"default" : 				{
-					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"color" : [ 0.027451, 0.0, 0.305882, 1.0 ],
 					"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+					"elementcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.788235, 0.301961, 1.0 ],
+					"color" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "blueYellowSlider",
@@ -19055,10 +18797,10 @@
 , 			{
 				"name" : "orangeBlue-1",
 				"default" : 				{
+					"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"selectioncolor" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ],
 					"color" : [ 1.0, 0.376938, 0.307692, 1.0 ],
-					"accentcolor" : [ 1.0, 0.376471, 0.305882, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "blueYellowSlider",
@@ -19067,8 +18809,8 @@
 , 			{
 				"name" : "orangeBlue2",
 				"default" : 				{
-					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "orangeBlue",
@@ -19078,8 +18820,8 @@
 				"name" : "orangeBlueMeter",
 				"default" : 				{
 					"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "orangeBlue2",
@@ -19094,8 +18836,8 @@
 				"name" : "orangeBlueSlider",
 				"default" : 				{
 					"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ]
+					"elementcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
+					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "orangeBlue2",
@@ -19105,8 +18847,8 @@
 				"name" : "orangeBlueTog",
 				"default" : 				{
 					"bgcolor" : [ 0.027451, 0.0, 0.305882, 1.0 ],
-					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ],
-					"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ]
+					"elementcolor" : [ 0.490196, 0.0, 0.309804, 1.0 ],
+					"color" : [ 1.0, 0.376471, 0.305882, 1.0 ]
 				}
 ,
 				"parentstyle" : "orangeBlue-1",
@@ -19154,8 +18896,8 @@
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Arial Rounded MT Bold" ],
 					"clearcolor" : [ 0.427451, 0.427451, 0.427451, 0.0 ],
-					"textcolor" : [ 0.425833, 0.425833, 0.425833, 1.0 ],
 					"fontface" : [ 0 ],
+					"textcolor" : [ 0.425833, 0.425833, 0.425833, 1.0 ],
 					"fontsize" : [ 31.563649999999999 ]
 				}
 ,
@@ -19168,8 +18910,8 @@
 					"textjustification" : [ 1 ],
 					"fontname" : [ "Arial Rounded MT Bold" ],
 					"clearcolor" : [ 0.427451, 0.427451, 0.427451, 0.0 ],
-					"textcolor" : [ 0.425833, 0.425833, 0.425833, 1.0 ],
 					"fontface" : [ 0 ],
+					"textcolor" : [ 0.425833, 0.425833, 0.425833, 1.0 ],
 					"fontsize" : [ 31.563649999999999 ]
 				}
 ,
@@ -19180,9 +18922,9 @@
 				"name" : "pbpreset",
 				"default" : 				{
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 1.0 ],
-					"color" : [ 1.0, 0.4, 0.4, 1.0 ],
 					"accentcolor" : [ 0.854902, 0.854902, 0.376471, 1.0 ],
-					"elementcolor" : [ 0.425833, 0.425833, 0.425833, 1.0 ]
+					"elementcolor" : [ 0.425833, 0.425833, 0.425833, 1.0 ],
+					"color" : [ 1.0, 0.4, 0.4, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -19193,8 +18935,8 @@
 				"default" : 				{
 					"fontname" : [ "Arial Rounded MT Bold" ],
 					"clearcolor" : [ 0.666667, 0.666667, 0.666667, 1.0 ],
-					"textcolor" : [ 0.425833, 0.425833, 0.425833, 1.0 ],
 					"fontface" : [ 1 ],
+					"textcolor" : [ 0.425833, 0.425833, 0.425833, 1.0 ],
 					"fontsize" : [ 9.0 ]
 				}
 ,
@@ -19246,10 +18988,10 @@
 , 			{
 				"name" : "shittyStyle",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 					"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+					"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ],
 					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"elementcolor" : [ 0.871412, 0.955014, 0.629622, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.078431, 0.321569, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -19263,12 +19005,12 @@
 , 			{
 				"name" : "slitscan",
 				"default" : 				{
+					"elementcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"color" : [ 0.870197, 0.009889, 0.009889, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -19286,8 +19028,8 @@
 , 			{
 				"name" : "texteditGold",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
