@@ -53,13 +53,20 @@
       <h2 class="section-title">Audio parameters</h2>
       <p>
         AudioVideoAnalysis features three distinct sections of audio 
-        parameters that affect the spectrogram printed in the Display 
+        parameters that affect the spectrogram printed in the display 
         window. These are <code>audio channels</code>, <code>color
-        </code> and <code>processing</code>.
+        </code> and <code>processing</code>. 
       </p>
 
       <img src="img/3-audio-parameters.jpg" width="787" height="304"/>
 
+      <p>
+        The <strong>audio channels</strong> tabs decide which audio channels
+        to use for our analysis. This can be handy if you have multiple active 
+        channels but you only want to analyze the spectral content of specific channels.
+        In these cases, the <strong>monitor</strong> tab is quite useful. It enables
+        you to monitor the incoming audio signal pre-recording. 
+      </p>
       <p>
         The <strong>logarithmic</strong> dial controls how logarithmic 
         we want our spectrogram frequency distribution to be. A <em>higher</em> 
@@ -110,8 +117,7 @@
 
       <h2 class="section-title">Video parameters</h2>
       <p>
-        AudioVideoAnalysis also features three distinct sections of video parameters
-        that affect the motion/videogram printed in the Display window. These are
+        AudioVideoAnalysis also features three distinct video parameters sections,
         <code>image selector</code>, <code>color</code> and <code>filter</code>. 
         There is also a preview window that lets you see how the video-feed is 
         processed <strong>before</strong> it&#39;s printed on the main display 
@@ -121,14 +127,14 @@
       <img src="img/7-video-parameters.jpg" width="787" height="304"/>
 
       <p>
-        The <strong>Image selector</strong> lets you either view a videogram or motiongram
-         in the display window. Both images express vertical motion over time, the only 
-         difference is that a motiongram has some additional pre-processing which further 
-         isolates motion and reduces image noise.
+        You can view either a motiongram or a videogram in the display window by toggling
+        the <strong>image selector</strong>. Both images express vertical motion over time, the only 
+        difference is that a motiongram has some additional pre-processing which further 
+        isolates motion and reduces image noise.
       </p>
 
       <p>
-        When recording a motiongram, we can use a <strong>binary</strong> or
+        When recording a motiongram, you can use a <strong>binary</strong> or
         &quot;<strong>regular</strong>&quot;(unary) noise reduction filter to 
         reduce unwanted noise in our video-feed. The differences between these two 
         filters are subtle, but a general tendency is that the <strong>binary</strong> filter
