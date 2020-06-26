@@ -10,15 +10,15 @@ AudioVideoAnalysis 2.0 (openGL version) now available.
 ## Features
 
 * **Draw spectrogram from any connected sound source**
-* Spectral blurring effect and logarithmic frequency distribution of spectrogram.
-* Dynamic audio analysis source input (up to 4 channels).
+* Spectral blurring effect and dynamic control of spectrograms logarithmic curve.
+* Customize analysis audio source input (up to 4 channels).
 * Monitor audio signal pre-recording.
-* **Draw motiongram/videogram from any connected camera source.**
+* **Draw motion/videogram from any connected camera source.**
 * Multiple video noise reduction types.
 
 Additional features:
 * Multiple display viewing options.
-* Configure various audio, video and display parameters post-recording.
+* Post-recording image processing.
 * Retrieve spectrogram time, amplitude and frequency info at clickpoint.
 * **Customize the rate (display length in seconds) of image printing.**
 * Add analysis grid and markers (frequency and time) with dynamic grid size.
