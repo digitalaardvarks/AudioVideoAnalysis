@@ -38,13 +38,13 @@
 
       <h2 class="section-title">Device parameters</h2>
       <p>
-        Before recording, make sure you have selected your desired 
+        Before recording, make sure to cofigure your
         device parameters. These include <code>camera device</code>, 
-        <code>camera format (resolution) and general audio settings
+        <code>camera format</code> (resolution) and <code>general audio settings
         </code> such as audio device, samplerate, buffersize, etc. 
-        The video <code>RefreshDevices</code> feature lets you refresh 
-        the video device list. This is handy if you connect new video hardware
-        while running the application.
+        The video <code>RefreshDevice</code> updates the video device list. 
+        This is handy if you connect new video hardware while running
+        the application.
       </p>
 
       <img src="img/2-device-parameters.jpg" width="787" height="304"/>
@@ -52,17 +52,17 @@
 
       <h2 class="section-title">Audio parameters</h2>
       <p>
-        AudioVideoAnalysis features three distinct sections of audio 
-        parameters that affect the spectrogram printed in the display 
-        window. These are <code>color</code>, <code>audio channels</code> 
-        and <code>processing</code>. 
+        There are three distinct sections of audio parameters that each affect 
+        the display window spectrogram in varying ways. These 
+        are `color`, `audio channels` and `processing`.. These are <code>color</code>, 
+        <code>audio channels</code> and <code>processing</code>. 
       </p>
 
       <img src="img/3-audio-parameters.jpg" width="787" height="304"/>
 
       <p>
-        The <strong>audio channels</strong> tabs decide which audio channels
-        to use for our analysis. This can be handy if you have multiple active 
+        The <strong>audio channel</strong> tabs decide which audio input channels
+        to use for your analysis. This can be handy if you have multiple active 
         channels but you only want to analyze the spectral content of specific channels.
         In these cases, the <strong>monitor</strong> tab is quite useful. It enables
         you to monitor the incoming audio signal pre-recording. 
@@ -84,8 +84,8 @@
       </figure>
 
       <p>
-        the <strong>spectral blur</strong> effect is, in principle, a vector-sized
-        delay and can be used to create more generalized images of the audio 
+        the <strong>spectral blur</strong> is essentially a short vector-sized spectral 
+        delay that can be used to create more generalized images of the audio 
         amplitude and frequency content. The spectral blur has 3 modes: <code>no 
         blur</code> - <code>blur</code> - <code>lots of blur</code>.
       </p>
@@ -117,9 +117,9 @@
 
       <h2 class="section-title">Video parameters</h2>
       <p>
-        AudioVideoAnalysis also features three distinct video parameters sections,
+        To process the video-feed, you also have three distinct video parameter sections; 
         <code>color</code>, <code>image selector</code> and <code>filter</code>. 
-        There is also a preview window that lets you see how the video-feed is 
+        Additionally, a preview window lets you see how the video-feed is 
         processed <strong>before</strong> it&#39;s printed on the main display 
         window.
       </p>
@@ -136,7 +136,7 @@
       <p>
         When recording a motiongram, you can use a <strong>binary</strong> or
         &quot;<strong>regular</strong>&quot;(unary) noise reduction filter to 
-        reduce unwanted noise in our video-feed. The differences between these two 
+        reduce unwanted noise in your video-feed. The differences between these two 
         filters are subtle, but a general tendency is that the <strong>binary</strong> filter
         is usually more &quot;radical&quot; than its <strong>regular</strong> counterpart. 
         The preview window can help us see these effects more clearly.
@@ -181,7 +181,7 @@
         There are also more display options in the <strong>menubar</strong>.
       </p>
 
-      <img src="img/11-menubar-display-options.jpg" width="378" height="204"/>
+      <img src="img/11-menubar-display-options.jpg" width="398" height="267"/>
 
       <p>
         The <code>Bring Display to Front</code> option will glue your display window to the
@@ -226,9 +226,8 @@
       <h2 class="section-title">Export options</h2>
       <p>
         An important feature of AudioVideoAnalysis is the ability to export
-        the images we create. Here, the applications post-recording processing abilities
-        come in handy! By using these features we can find good images
-        to export for further analysis.
+        the images we create. In these cases, the applications post-recording processing abilities
+        comes in handy!
       </p>
 
       <img src="img/14-export-options.jpg" width="297" height="233"/>
